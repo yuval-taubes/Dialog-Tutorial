@@ -1,11 +1,11 @@
 ## What are Modal's
 
 A modal is a dialog box/popup window that is displayed on top of the current page. In this example
-We will learn how to make a Modal Using the HTML ```dialog``` tag
+We will learn how to make a Modal Using the HTML ```<dialog>``` tag
 
-### The ```dialog``` tag
+### The ```<dialog>``` tag
 
-browsers have introduced the new ```dialog``` tag that makes it easier to create dialogs and lightboxes.
+browsers have introduced the new ```<dialog>``` tag that makes it easier to create dialogs and lightboxes.
 With Javascript you can call methods to open the dialog or close it, or know when the dialog was 
 closed through an event.
 
@@ -107,6 +107,12 @@ let button2 = document.getElementById('button2')
 ```
 
 we can use the ```Dialog.showModal()``` and ```Dialog.close()``` to open and close the modal using a button press
+
+### Conclusion
+
+If you need to make a Modal, dialog is what you should use. It can easily cut your coding time in half
+
+
 
 ### References
 
